@@ -2,7 +2,7 @@
 // open_folder.js - 含んでいるフォルダを開く
 //-------------------------------------------------------------------------------
 //
-// Copyright(c) 2011 sharkpp All rights reserved.
+// Copyright(c) 2011,2013 sharkpp All rights reserved.
 //
 // The MIT License
 //
@@ -35,7 +35,7 @@
 	{
 		// フォルダを開く
 		var shell = new ActiveXObject("WScript.Shell");
-		shell.Run("explorer.exe ,/select,\"" + sPath + "\"");
+		shell.Run("explorer.exe /select,\"" + sPath + "\"");
 	}
 
 })();
